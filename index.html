@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- muestra el sitio correctamente según el dispositivo del usuario -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Reto 1 | Bookmark landing page</title>
+
+
+</head>
+<body>
+
+  <div class="container-all">
+  <div class="container" >
+  <nav id="container-mobile">
+    <div class="nav-wrapper container-nav" id="nave-mobile">
+    <img class="img-logo" src="images/logo-bookmark.svg" alt="logo">
+
+    <button id="menu-nav"><a href="#nave-mobile"><img src="images/icon-hamburger.svg" alt=""></a></button>
+
+      <ul id="nav-mobile " class="right hide-on-med-and-down">
+        <li class="li-nav"><a href="#features">FEATURES</a></li>
+        <li class="li-nav"><a href="#">PRICING</a></li>
+        <li class="li-nav"><a href="#">CONTACT</a></li>
+        <li class="li-nav" id="login"><a href="#">LOGIN</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <main>
+    
+    <div class="row row1">
+      <div class="row-reverse">
+      <div class="col s6 col-text-1 m6">
+        <h3>A Simple Bookmark Manager</h3>
+        <p>  A clean and simple interface to organize your favourite websites. Open a new 
+          browser tab and see your sites load instantly. Try it for free.</p>
+          <a class="waves-effect waves-light btn btn-simple btn-chrome"> Get it on Chrome</a>
+          <a id="btn-firefox" class="waves-effect waves-light btn btn-simple"> Get it on Firefox</a>
+
+        </div>
+      <div class="col s6 m6 container-img">
+        <div class="bg-fondo">
+        <img class="img-hero" src="images/illustration-hero.svg" alt="">
+      </div>
+      </div>
+      </div>
+    </div>
+
+    <div id="features" class="feature">
+      <h4>Features</h4>
+      <p>
+        Our aim is to make it quick and easy for you to access your favourite websites. 
+        Your bookmarks sync between your devices so you can access them on the go.
+      </p>
+    </div>
+
+    <nav class="nav-extended">
+      <div class="nav-content">
+        <ul class="tabs lista-par2 tabs-transparent">
+          <li class="tab"><button class="btn-part2" id="simpleBook"><a href="#test1">Simple Bookmarking</a></button></li>
+          <li class="tab"><button class="btn-part2" id="speedy"><a class="active" href="#test2">Speedy Searching</a></button></li>
+          <li class="tab"><button class="btn-part2" id="easy"><a href="#test4">Easy Sharing</a></button></li>
+
+        </ul>
+        <hr>
+      </div>
+ 
+    </nav>
+   
+    <div id="container-par2">
+      <div class=" row-2">
+        <div class="col s6">
+          <div class="bg-f2">
+          <img class="img-instruc img-simple" src="images/illustration-features-tab-1.svg" alt="">
+        </div>
+        </div>
+  
+        <div class="col s5 col-2">
+          <h3>Bookmark in one click</h3>
+          <p> Organize your bookmarks however you like. Our simple drag-and-drop interface 
+            gives you complete control over how you manage your favourite sites.</p>
+            <a  class="waves-effect waves-light btn btn-simple btn-chrome">More Info</a>
+  
+          </div>
+      </div>
+  </div>
+
+  <div class="feature">
+    <h4>Download the extension</h4>
+    <p>
+      We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+      got a favourite you’d like us to prioritize.
+    </p>
+  </div>
+
+
+  
+  <div class="row  row-navegador">
+
+    <div class="col s4 col-navegador" >
+      <div class="card">
+        <div class="card-image">
+          <img src="images/logo-chrome.svg">
+          <h5 class="title">Add to Chrome</h5>
+        </div>
+        <div class="card-content">
+          <p>Minimum version 62</p>
+          <img src="images/bg-dots.svg" alt="" srcset="">
+            </div>
+        <div>
+          <a class="waves-effect waves-light btn btn-simple btn-2ch btn-chrome"> Add & Install Extension</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col s4 col-navegador col-firefox" >
+      <div class="card">
+        <div class="card-image">
+          <img src="images/logo-firefox.svg">
+          <h5 class="title">Add to Firefox</h5>
+        </div>
+        <div class="card-content">
+          <p>Minimum version 55</p>
+          <img src="images/bg-dots.svg" alt="" srcset="">
+            </div>
+        <div>
+          <a  class="waves-effect waves-light btn btn-simple btn-2ch btn-chrome"> Add & Install Extension</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s4 col-navegador col-opera" >
+      <div class="card">
+        <div class="card-image">
+          <img src="images/logo-opera.svg">
+          <h5 class="title">Add to Opera</h5>
+        </div>
+        <div class="card-content">
+          <p>Minimum version 46</p>
+          <img src="images/bg-dots.svg" alt="" srcset="">
+            </div>
+        <div>
+          <a class="waves-effect waves-light btn btn-simple btn-chrome btn-2ch"> Add & Install Extension</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="feature">
+    <h4>Frequently Asked Questions</h4>
+    <p>
+      Here are some of our FAQs. If you have any other questions you’d like 
+      answered please feel free to email us.
+    </p>
+
+
+      <!-- La lista de preguntas irá aquí -->
+      <ul class="lista">
+        <!-- Pregunta 1 -->
+        <li class="pregunta" data-resp_id="resp_1">
+            <span>What is Bookmark?</span>
+            <i class="ico_resp fas fa-angle-down"></i>
+          </li>
+          <li class="respuesta" id="resp_1">
+            <span id="sp_resp_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+              justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+            </span>
+          </li>
+
+
+        <!-- Pregunta 2 -->
+        <li class="pregunta" data-resp_id="resp_2">
+          <span>How can I request a new browser?</span>
+          <i class="ico_resp fas fa-angle-down"></i>
+        </li>
+        <li class="respuesta" id="resp_2">
+          <span id="sp_resp_2">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+            Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+            ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+            Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</span>
+        </li>
+
+         <!-- Pregunta 3 -->
+        <li class="pregunta" data-resp_id="resp_3">
+          <span>Is there a mobile app?</span>
+          <i class="ico_resp fas fa-angle-down"></i>
+        </li>
+        <li class="respuesta" id="resp_3">
+          <span id="sp_resp_3">  Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+            urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+            sollicitudin ex et ultricies bibendum.</span>
+        </li>
+
+         <!-- Pregunta 4 -->
+        <li class="pregunta" data-resp_id="resp_4">
+          <span>What about other Chromium browsers?</span>
+          <i class="ico_resp fas fa-angle-down"></i>
+        </li>
+        <li class="respuesta" id="resp_4">
+          <span id="sp_resp_4">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+            vitae neque eget nisl gravida pellentesque non ut velit..</span>
+        </li>
+
+      </ul>
+      <a class="waves-effect waves-light btn btn-simple btn-chrome">More Info</a>
+
+</div>
+  </main>
+
+
+  <footer class="page-footer col-email">
+    <div class="container">
+      <div class="row row-email">
+        <div class="col l9 s15 col-info-email">
+          <h5>35,000+ already joined</h5>
+          <h4>Stay up-to-date with what we’re doing</h4>
+          <form id="form">
+          <div class="container-email">
+          <input name="email" id="input-email" type="email" placeholder="Enter your email address"><img id="icon-error" src="images/icon-error.svg" alt="">
+          <button class="btn" id="contact">Contact Us</button>
+        </form>
+        </div>  
+        <div id="validation" >
+        </div>
+        <a href="mailto:cortezhernandezdamaris@gmail.com" id="correo-env">Email</a>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container-foote">
+        <img class="img-logo" src="images/logo-bookmark copy.svg" alt="logo">
+        <div class="prices-div">
+          <ul class="list-footer">
+            <li class="lista-foot">Features</li>
+            <li class="lista-foot">Pricing</li>
+            <li class="lista-foot">Contact</li>
+            <li class="lista-foot">CodeBy<span style="color: hsl(0, 94%, 66%);">¡Damaris!</span></li>
+          </ul>
+
+        </div>
+      <ul class="red-social text-lighten-4 right">
+        <li class="li-social"><img src="images/icon-facebook.svg" alt=""></li>
+        <li class="li-social"><img src="images/icon-twitter.svg" alt=""></li>
+      </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  </div>
+</div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    	<!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
